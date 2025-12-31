@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cf-maliar"
+version = "0.1.0"
+description = "Deep-learning (Maliar-style) solver for structural corporate finance models in TensorFlow/TFP."
+requires-python = ">=3.9"
+dependencies = [
+  "tensorflow>=2.10",
+  "tensorflow-probability>=0.22",
+  "numpy>=1.23",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,4 @@
+tensorflow>=2.10
+tensorflow-probability>=0.22
+numpy>=1.23
+pytest>=7.0
